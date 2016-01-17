@@ -79,3 +79,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* profile pic */
+.profile-pic{
+    height: 15em;
+    background-image: url(../artwork/sample-photo.jpg);
+    background-size: 25em;
+}
+
+/* media queries */
