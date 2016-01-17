@@ -23,11 +23,14 @@ body {
     margin: 0;
 }
 
-.toggle-label {
-    cursor: pointer;
+.profile-pic{
+    height: 15em;
+    background-image: url(../artwork/sample-photo.jpg);
+    background-size: 25em;
 }
 
-/* icon specifics */
+/* embedding stuff */
+
 .list-group {
 	display: block;
 	padding: 0;
@@ -76,8 +79,12 @@ body {
     opacity: 1;
 }
 
+/* toggle stuff */
 
-/* toggle elements */
+.toggle-label {
+    cursor: pointer;
+}
+
 .toggle {
     padding-top: .25em;
     padding-left: .5em;
@@ -121,23 +128,18 @@ body {
     max-height: 10em;
 }
 
-/* nav bar */
+.username {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 .nav-bar {
     background-color:#6CB4C1;
-    xbox-shadow: 0px 1px 20px 2px rgba(35, 31, 32, 0.18);
+    box-shadow: 0px 1px 20px 2px rgba(35, 31, 32, 0.18);
     margin: 0;
     padding: 0;
 }
-
-/* profile pic */
-.profile-pic{
-    height: 15em;
-    background-image: url(../artwork/sample-photo.jpg);
-    background-size: 25em;
-}
-
-/* media queries */
 
 /*med*/@media only screen and (min-width: 30em) { 
     .profile-pic{
